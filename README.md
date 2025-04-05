@@ -10,6 +10,9 @@
 
 [Ver documento en Google Drive](https://drive.google.com/file/d/1GAcY-sdTtH5JYmulRaT7dYneu6MgKyBZ/view?usp=sharing)
 
+## Diagrama del Proyecto
+
+![Diagrama del Proyecto](ARQTELIER%20S.A.C..drawio.png)
 
 ## 📘 Introducción
 
