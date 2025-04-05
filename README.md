@@ -1,5 +1,16 @@
 # Modelo de Información Empresarial – ARQTELIER S.A.C.
 
+## Integrantes del Grupo
+
+- Huamani Vasquez Juan Jose  
+- Yabar Carazas Melvin Jarred  
+- Zela Flores Gabriel Frank Krisna  
+
+## Enlace del draw.io
+
+[Ver documento en Google Drive](https://drive.google.com/file/d/1GAcY-sdTtH5JYmulRaT7dYneu6MgKyBZ/view?usp=sharing)
+
+
 ## 📘 Introducción
 
 **ARQTELIER S.A.C.** es una empresa peruana especializada en servicios de arquitectura, diseño y construcción. Fundada como microempresa bajo la figura de Sociedad Anónima Cerrada (S.A.C.), ofrece soluciones arquitectónicas personalizadas a través de:
