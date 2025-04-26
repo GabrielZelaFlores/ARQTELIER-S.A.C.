@@ -103,7 +103,7 @@ CREATE TABLE OrdenServicio (
     REFERENCES Cliente(id_cliente)
 );
 
--- Tabla Servicio_Empleado (relación Servicio - Empleado)
+-- Tabla ServicioEmpleado (relación Servicio - Empleado)
 CREATE TABLE Servicio_Empleado (
     id_servicio INT NOT NULL,
     id_empleado INT NOT NULL,
