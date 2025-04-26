@@ -93,7 +93,7 @@ INSERT INTO Producto (id_proveedor, nombre, tipo, precio_compra, precio_venta, s
 (5, 'Cuadro Botánico Vintage', 'Cuadro', 175.00, 350.00, 14);
 
 -- SERVICIO_EMPLEADO (en lugar de Producto_RecursoHumano, que no existe en tu esquema)
-INSERT INTO Servicio_Empleado VALUES
+INSERT INTO ServicioEmpleado VALUES
 (1, 1), (1, 5), (2, 2), (3, 4), (4, 6),
 (5, 14), (1, 7), (2, 11), (3, 13), (4, 20),
 (5, 8), (2, 9), (3, 3), (4, 15), (5, 18);
