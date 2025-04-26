@@ -104,7 +104,7 @@ CREATE TABLE OrdenServicio (
 );
 
 -- Tabla ServicioEmpleado (relación Servicio - Empleado)
-CREATE TABLE Servicio_Empleado (
+CREATE TABLE ServicioEmpleado (
     id_servicio INT NOT NULL,
     id_empleado INT NOT NULL,
 
