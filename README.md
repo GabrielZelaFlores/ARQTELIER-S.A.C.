@@ -102,5 +102,3 @@ Para verificar resultados, se pueden usar `SELECT` directamente sobre las tablas
 Este sistema permite a la empresa **SACARQ** llevar un control ordenado, escalable y optimizado de todos los aspectos operativos relacionados con sus servicios técnicos. Está diseñado para facilitar reportes rápidos, asignación de personal, análisis de clientes y supervisión de procesos técnicos.
 
 ---
-
-¿Deseas que también te genere un archivo `.sql` con todo el contenido del proyecto o una presentación resumida tipo PowerPoint o PDF?
