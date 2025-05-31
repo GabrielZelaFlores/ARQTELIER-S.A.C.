@@ -25,7 +25,7 @@ Con esta base de datos se busca automatizar la gestión administrativa y operati
 
 ## 🧱 Estructura de la Base de Datos
 
-![Diagrama ER de la Base de Datos](SQL/SACARQ%20DIAGRAMA.png)
+![Diagrama ER de la Base de Datos](SACARQ%20DIAGRAMA.png)
 
 ---
 ### 🔹 Tablas de Apoyo
