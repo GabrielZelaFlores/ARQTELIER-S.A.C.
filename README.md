@@ -6,109 +6,101 @@
 - Yabar Carazas Melvin Jarred  
 - Zela Flores Gabriel Frank Krisna  
 
-## Enlace del draw.io
 
-[Ver documento en Google Drive](https://drive.google.com/file/d/1GAcY-sdTtH5JYmulRaT7dYneu6MgKyBZ/view?usp=sharing)
+# 📘 **README - Proyecto Base de Datos SACARQ**
 
-## Diagrama del Proyecto
+## 🏗️ Descripción General
 
-![Diagrama del Proyecto](ARQTELIER%20S.A.C..drawio.png)
+**SACARQ** es un sistema de base de datos diseñado para gestionar los procesos operativos de una empresa del sector arquitectura e ingeniería. Su propósito principal es registrar y controlar:
 
-## 📘 Introducción
+* Clientes (personas o empresas).
+* Servicios ofrecidos (como diseño arquitectónico, instalaciones eléctricas, supervisión).
+* Empleados y sus especialidades.
+* Recursos usados en cada proceso de servicio.
+* Órdenes de servicio emitidas por los clientes.
 
-**ARQTELIER S.A.C.** es una empresa peruana especializada en servicios de arquitectura, diseño y construcción. Fundada como microempresa bajo la figura de Sociedad Anónima Cerrada (S.A.C.), ofrece soluciones arquitectónicas personalizadas a través de:
-
-- Diseño arquitectónico
-- Remodelaciones
-- Supervisión de obra
-- Proyectos para licencias municipales
-
-Con el crecimiento sostenido de sus operaciones, se ha definido la necesidad de estructurar un **Modelo Entidad-Relación Extendido (MER)** que represente, organice y sistematice la información interna de la empresa. Este modelo servirá como base para desarrollos informáticos, gestión de datos y la toma de decisiones estratégicas y operativas.
+Con esta base de datos se busca automatizar la gestión administrativa y operativa de la empresa, brindando una estructura clara para consultas, reportes y seguimiento.
 
 ---
 
-## 🧩 Estructura General del Modelo
+## 🧱 Estructura de la Base de Datos
 
-El modelo está compuesto por **8 entidades principales**:
+### 🔹 Tablas de Apoyo
 
-- Empresa
-- Cliente
-- Proveedor
-- Recurso Humano
-- Servicio
-- Producto
-- Proceso
-- Recurso
+* **Cargo**: Define los roles de los empleados (Ej. Arquitecto, Ingeniero).
+* **TipoContrato**: Registra el tipo de contrato laboral (Tiempo completo, Por proyecto).
+* **Especialidad**: Define áreas técnicas de los empleados (Estructuras, Eléctrico, Diseño).
+* **TipoCliente**: Clasifica si el cliente es una empresa o una persona natural.
+* **TipoRecurso**: Clasifica los recursos en materiales, herramientas o software.
 
-Cada entidad cuenta con un identificador único (`codigo_*`) y atributos clave que definen su rol en el sistema. Las relaciones están modeladas explícitamente para facilitar la normalización de los datos y su posterior uso en sistemas relacionales.
+### 🔹 Tablas Principales
 
----
-
-## 📄 Tabla de Entidades y Atributos
-
-| Entidad           | Atributo                       | Tipo de Dato          |
-|-------------------|--------------------------------|------------------------|
-| **Empresa**       | `codigo_empresa`               | `VARCHAR` <<PK>>       |
-|                   | `nombre`, `ruc`, `direccion`, `tipo` | `VARCHAR`          |
-|                   | `rubro`                        | `TEXT`                |
-| **Cliente**       | `codigo_cliente`               | `VARCHAR` <<PK>>       |
-|                   | `codigo_empresa`               | `VARCHAR` <<FK>>       |
-|                   | `nombre`, `tipo`, `ruc_dni`, `correo`, `telefono` | `VARCHAR` / `ENUM` |
-| **Proveedor**     | `codigo_proveedor`             | `VARCHAR` <<PK>>       |
-|                   | `codigo_empresa`               | `VARCHAR` <<FK>>       |
-|                   | `nombre`, `tipo`, `ruc`, `correo`, `telefono` | `VARCHAR` / `ENUM` |
-| **Recurso Humano**| `codigo_empleado`              | `VARCHAR` <<PK>>       |
-|                   | `codigo_empresa`               | `VARCHAR` <<FK>>       |
-|                   | `nombre`, `cargo`, `especialidad` | `VARCHAR`           |
-|                   | `tipo_contrato`                | `ENUM`                |
-| **Servicio**      | `codigo_servicio`              | `VARCHAR` <<PK>>       |
-|                   | `nombre`                       | `VARCHAR`              |
-|                   | `descripcion`                  | `TEXT`                 |
-|                   | `precio_base`                  | `DECIMAL`              |
-| **Producto**      | `codigo_producto`              | `VARCHAR` <<PK>>       |
-|                   | `codigo_cliente`               | `VARCHAR` <<FK>>       |
-|                   | `codigo_servicio`              | `VARCHAR` <<FK>>       |
-|                   | `nombre`, `tipo`               | `VARCHAR` / `ENUM`     |
-|                   | `precio_estimado`              | `DECIMAL`              |
-|                   | `tiempo_entrega`               | `VARCHAR`              |
-| **Proceso**       | `codigo_proceso`               | `VARCHAR` <<PK>>       |
-|                   | `codigo_servicio`              | `VARCHAR` <<FK>>       |
-|                   | `nombre`                       | `VARCHAR`              |
-|                   | `descripcion`                  | `TEXT`                 |
-|                   | `area_responsable`             | `VARCHAR`              |
-| **Recurso**       | `codigo_recurso`               | `VARCHAR` <<PK>>       |
-|                   | `codigo_proceso`               | `VARCHAR` <<FK>>       |
-|                   | `nombre`, `tipo`               | `VARCHAR` / `ENUM`     |
-|                   | `uso`                          | `TEXT`                 |
+* **Cliente**: Registra a los clientes, incluyendo RUC/DNI, correo y teléfono.
+* **Empleado**: Guarda los datos del personal técnico con su especialidad y contrato.
+* **Servicio**: Contiene los servicios ofertados por la empresa y su precio base.
+* **Proceso**: Subdivisión de un servicio; cada uno tiene una descripción y un área responsable.
+* **Recurso**: Recursos necesarios por cada proceso (ej. materiales, software).
+* **OrdenServicio**: Registra las órdenes de trabajo hechas por los clientes.
+* **ServicioEmpleado**: Relación muchos a muchos entre servicios y empleados asignados.
 
 ---
 
-## 🔗 Relaciones Entre Entidades
+## ⚙️ Funcionalidades Implementadas
 
-Las relaciones clave del modelo MER son las siguientes:
+### 📌 Inserción de Datos
 
-- Un **Cliente** puede realizar uno o más **Productos**.
-- Un **Producto** está basado en un único **Servicio**.
-- Un **Producto** puede ser ejecutado por uno o más **Recursos Humanos**. *(Esta relación está presente en el diagrama, aunque no modelada como entidad intermedia.)*
-- Un **Proceso** puede utilizar uno o más **Recursos**.
-- Un **Proceso** puede generar uno o más **Servicios**.
-- Una **Empresa**:
-  - Emplea a **Recursos Humanos**,
-  - Atiende a **Clientes**,
-  - Contrata a **Proveedores**.
+Se ingresaron datos de ejemplo para todas las tablas, representando casos reales del rubro arquitectura e ingeniería.
+
+### 📌 Índices
+
+Se crearon índices en claves foráneas y campos frecuentes en búsquedas (como nombre, correo, estado) para optimizar el rendimiento.
+
+### 📌 Consultas SQL
+
+Incluyen:
+
+* Listado de empleados con especialidades.
+* Servicios por empleado.
+* Órdenes activas por cliente.
+* Cantidad de órdenes por estado.
+
+### 📌 Funciones
+
+* **Escalares**: Obtener nombre de cliente por ID, calcular precio con IGV.
+* **Con valores de tabla**: Servicios de un empleado, órdenes pendientes por cliente.
+
+### 📌 Procedimientos Almacenados
+
+* Registrar clientes.
+* Asignar empleados a servicios.
+* Cambiar el estado de una orden.
+* Generar reportes por fechas.
+* Buscar empleados por especialidad.
 
 ---
 
-## 🪪 Licencia
+## 🧪 Ejecución de Procedimientos
 
-Este modelo es propiedad de **ARQTELIER S.A.C.** y su uso está restringido a fines internos, salvo autorización explícita por parte de la dirección de la empresa.
+```sql
+EXEC sp_RegistrarCliente 'María López', 2, '87654321', 'mlopez@gmail.com', '999888777';
+
+EXEC sp_AsignarEmpleadoAServicio 3, 1;
+
+EXEC sp_ActualizarEstadoOrden 1, 'En Proceso';
+
+EXEC sp_ReporteOrdenesPorFecha '2025-05-01', '2025-05-31';
+
+EXEC sp_EmpleadosPorEspecialidad 3;
+```
+
+Para verificar resultados, se pueden usar `SELECT` directamente sobre las tablas correspondientes.
 
 ---
 
-## 👤 Autoría
+## 📈 Conclusión
 
-**Desarrollado para:**  
-ARQTELIER S.A.C.  
-📍 Perú
+Este sistema permite a la empresa **SACARQ** llevar un control ordenado, escalable y optimizado de todos los aspectos operativos relacionados con sus servicios técnicos. Está diseñado para facilitar reportes rápidos, asignación de personal, análisis de clientes y supervisión de procesos técnicos.
 
 ---
+
+¿Deseas que también te genere un archivo `.sql` con todo el contenido del proyecto o una presentación resumida tipo PowerPoint o PDF?
