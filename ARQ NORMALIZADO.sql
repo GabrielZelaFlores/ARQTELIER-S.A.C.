@@ -1,6 +1,6 @@
-CREATE DATABASE ARQT
+CREATE DATABASE ARQTE
 
-USE ARQT
+USE ARQTE
 
 
 -- ===================== TABLAS DE APOYO =====================
@@ -108,13 +108,13 @@ CREATE TABLE Recurso (
 
 -- Orden de Servicio
 CREATE TABLE OrdenServicio (
-    id_servicio INT NOT NULL,
+    id_orden INT PRIMARY KEY,
+	id_servicio INT NOT NULL,
     id_cliente INT NOT NULL,
     fecha_solicitud DATE DEFAULT GETDATE(),
     precio_estimated DECIMAL(10,2),
     tiempo_entrega INT,
-
-    PRIMARY KEY (id_servicio, id_cliente),
+	estado NVARCHAR(50) DEFAULT 'Pendiente'
 
     CONSTRAINT FK_OrdenServicio_Servicio FOREIGN KEY (id_servicio)
     REFERENCES Servicio(id_servicio),
