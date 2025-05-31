@@ -1,20 +1,9 @@
-CREATE DATABASE ARQ
-USE ARQ
+CREATE DATABASE ARQT
 
--- Crear base de datos
-CREATE DATABASE ARQTELIER;
-GO
+USE ARQT
 
-USE ARQTELIER;
-GO
 
 -- ===================== TABLAS DE APOYO =====================
-
--- Tipo de empresa
-CREATE TABLE TipoEmpresa (
-    id_tipo_empresa INT PRIMARY KEY,
-    tipo NVARCHAR(50)
-);
 
 -- Cargo
 CREATE TABLE Cargo (
@@ -40,38 +29,14 @@ CREATE TABLE TipoCliente (
     tipo NVARCHAR(50)
 );
 
--- Tipo de proveedor
-CREATE TABLE TipoProveedor (
-    id_tipo_proveedor INT PRIMARY KEY,
-    tipo NVARCHAR(50)
-);
-
 -- Tipo de recurso
 CREATE TABLE TipoRecurso (
     id_tipo_recurso INT PRIMARY KEY,
     tipo NVARCHAR(50)
 );
 
--- Tipo de producto
-CREATE TABLE TipoProducto (
-    id_tipo_producto INT PRIMARY KEY,
-    tipo NVARCHAR(50)
-);
 
 -- ===================== TABLAS PRINCIPALES =====================
-
--- Empresa
-CREATE TABLE Empresa (
-    id_empresa INT PRIMARY KEY,
-    nombre NVARCHAR(100) NOT NULL,
-    ruc NVARCHAR(20) NOT NULL,
-    rubro NVARCHAR(100),
-    direccion NVARCHAR(200),
-    id_tipo_empresa INT,
-
-    CONSTRAINT FK_Empresa_TipoEmpresa FOREIGN KEY (id_tipo_empresa)
-    REFERENCES TipoEmpresa(id_tipo_empresa)
-);
 
 -- Cliente
 CREATE TABLE Cliente (
@@ -83,29 +48,11 @@ CREATE TABLE Cliente (
     correo NVARCHAR(100),
     telefono NVARCHAR(20),
 
-    CONSTRAINT FK_Cliente_Empresa FOREIGN KEY (id_empresa)
-    REFERENCES Empresa(id_empresa),
-
     CONSTRAINT FK_Cliente_Tipo FOREIGN KEY (id_tipo_cliente)
     REFERENCES TipoCliente(id_tipo_cliente)
 );
 
--- Proveedor
-CREATE TABLE Proveedor (
-    id_proveedor INT PRIMARY KEY,
-    id_empresa INT NOT NULL,
-    nombre NVARCHAR(100) NOT NULL,
-    id_tipo_proveedor INT,
-    correo NVARCHAR(100),
-    telefono NVARCHAR(20),
-    ruc NVARCHAR(20),
 
-    CONSTRAINT FK_Proveedor_Empresa FOREIGN KEY (id_empresa)
-    REFERENCES Empresa(id_empresa),
-
-    CONSTRAINT FK_Proveedor_Tipo FOREIGN KEY (id_tipo_proveedor)
-    REFERENCES TipoProveedor(id_tipo_proveedor)
-);
 
 -- Empleado
 CREATE TABLE Empleado (
@@ -115,9 +62,6 @@ CREATE TABLE Empleado (
     id_cargo INT,
     id_tipo_contrato INT,
     id_especialidad INT,
-
-    CONSTRAINT FK_Empleado_Empresa FOREIGN KEY (id_empresa)
-    REFERENCES Empresa(id_empresa),
 
     CONSTRAINT FK_Empleado_Cargo FOREIGN KEY (id_cargo)
     REFERENCES Cargo(id_cargo),
@@ -195,29 +139,3 @@ CREATE TABLE ServicioEmpleado (
     REFERENCES Empleado(id_empleado)
 );
 
--- Producto
-CREATE TABLE Producto (
-    id_producto INT PRIMARY KEY,
-    id_proveedor INT NOT NULL,
-    nombre NVARCHAR(100) NOT NULL,
-    id_tipo_producto INT,
-    stock INT DEFAULT 0,
-
-    CONSTRAINT FK_Producto_Proveedor FOREIGN KEY (id_proveedor)
-    REFERENCES Proveedor(id_proveedor),
-
-    CONSTRAINT FK_Producto_Tipo FOREIGN KEY (id_tipo_producto)
-    REFERENCES TipoProducto(id_tipo_producto)
-);
-
--- PrecioProducto (historial de precios)
-CREATE TABLE PrecioProducto (
-    id_precio INT PRIMARY KEY,
-    id_producto INT NOT NULL,
-    precio_compra DECIMAL(10,2),
-    precio_venta DECIMAL(10,2),
-    fecha_actualizacion DATE DEFAULT GETDATE(),
-
-    CONSTRAINT FK_PrecioProducto_Producto FOREIGN KEY (id_producto)
-    REFERENCES Producto(id_producto)
-);
