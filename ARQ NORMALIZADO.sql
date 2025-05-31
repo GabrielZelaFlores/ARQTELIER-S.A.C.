@@ -41,7 +41,6 @@ CREATE TABLE TipoRecurso (
 -- Cliente
 CREATE TABLE Cliente (
     id_cliente INT PRIMARY KEY,
-    id_empresa INT NOT NULL,
     nombre NVARCHAR(100) NOT NULL,
     id_tipo_cliente INT,
     ruc_dni NVARCHAR(20),
@@ -57,7 +56,6 @@ CREATE TABLE Cliente (
 -- Empleado
 CREATE TABLE Empleado (
     id_empleado INT PRIMARY KEY,
-    id_empresa INT NOT NULL,
     nombre NVARCHAR(100) NOT NULL,
     id_cargo INT,
     id_tipo_contrato INT,
