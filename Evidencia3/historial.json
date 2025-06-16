@@ -1,0 +1,271 @@
+[
+  {
+    "_id": "CLI001",
+    "nombre": "María López",
+    "historial": [
+      {
+        "fecha": "2025-02-24",
+        "accion": "Cotización enviada",
+        "detalle": "Diseño de Interiores Premium"
+      },
+      {
+        "fecha": "2025-02-26",
+        "accion": "Orden pendiente",
+        "orden_id": 1
+      },
+      {
+        "fecha": "2025-03-06",
+        "accion": "Servicio completado",
+        "orden_id": 1
+      }
+    ]
+  },
+  {
+    "_id": "CLI002",
+    "nombre": "Decoraciones Elite SAC",
+    "historial": [
+      {
+        "fecha": "2025-03-21",
+        "accion": "Cotización enviada",
+        "detalle": "Iluminación Decorativa"
+      },
+      {
+        "fecha": "2025-03-23",
+        "accion": "Orden confirmada",
+        "orden_id": 2
+      },
+      {
+        "fecha": "2025-03-31",
+        "accion": "Servicio completado",
+        "orden_id": 2
+      }
+    ]
+  },
+  {
+    "_id": "CLI003",
+    "nombre": "Juan Pérez",
+    "historial": [
+      {
+        "fecha": "2025-02-07",
+        "accion": "Cotización enviada",
+        "detalle": "Instalación de Cuadros y Arte"
+      },
+      {
+        "fecha": "2025-02-09",
+        "accion": "Orden confirmada",
+        "orden_id": 3
+      }
+    ]
+  },
+  {
+    "_id": "CLI004",
+    "nombre": "Estudio ArqNova",
+    "historial": [
+      {
+        "fecha": "2025-02-08",
+        "accion": "Cotización enviada",
+        "detalle": "Diseño de Interiores Premium"
+      },
+      {
+        "fecha": "2025-02-10",
+        "accion": "Orden pendiente",
+        "orden_id": 4
+      },
+      {
+        "fecha": "2025-02-18",
+        "accion": "Servicio completado",
+        "orden_id": 4
+      }
+    ]
+  },
+  {
+    "_id": "CLI005",
+    "nombre": "Sofía Gutiérrez",
+    "historial": [
+      {
+        "fecha": "2025-03-24",
+        "accion": "Cotización enviada",
+        "detalle": "Instalación de Cuadros y Arte"
+      },
+      {
+        "fecha": "2025-03-26",
+        "accion": "Orden pendiente",
+        "orden_id": 5
+      },
+      {
+        "fecha": "2025-04-03",
+        "accion": "Servicio completado",
+        "orden_id": 5
+      }
+    ]
+  },
+  {
+    "_id": "CLI006",
+    "nombre": "Interiores Modernos SAC",
+    "historial": [
+      {
+        "fecha": "2025-01-07",
+        "accion": "Cotización enviada",
+        "detalle": "Iluminación Decorativa"
+      },
+      {
+        "fecha": "2025-01-09",
+        "accion": "Orden confirmada",
+        "orden_id": 6
+      },
+      {
+        "fecha": "2025-01-17",
+        "accion": "Servicio completado",
+        "orden_id": 6
+      }
+    ]
+  },
+  {
+    "_id": "CLI007",
+    "nombre": "Carlos Yáñez",
+    "historial": [
+      {
+        "fecha": "2025-04-09",
+        "accion": "Cotización enviada",
+        "detalle": "Diseño de Interiores Premium"
+      },
+      {
+        "fecha": "2025-04-11",
+        "accion": "Orden confirmada",
+        "orden_id": 7
+      }
+    ]
+  },
+  {
+    "_id": "CLI008",
+    "nombre": "ArqLine Studio",
+    "historial": [
+      {
+        "fecha": "2025-04-07",
+        "accion": "Cotización enviada",
+        "detalle": "Instalación de Cuadros y Arte"
+      },
+      {
+        "fecha": "2025-04-09",
+        "accion": "Orden pendiente",
+        "orden_id": 8
+      }
+    ]
+  },
+  {
+    "_id": "CLI009",
+    "nombre": "Laura Torres",
+    "historial": [
+      {
+        "fecha": "2025-03-14",
+        "accion": "Cotización enviada",
+        "detalle": "Iluminación Decorativa"
+      },
+      {
+        "fecha": "2025-03-16",
+        "accion": "Orden pendiente",
+        "orden_id": 9
+      },
+      {
+        "fecha": "2025-03-24",
+        "accion": "Servicio completado",
+        "orden_id": 9
+      }
+    ]
+  },
+  {
+    "_id": "CLI010",
+    "nombre": "Elegancia Urbana SAC",
+    "historial": [
+      {
+        "fecha": "2025-03-03",
+        "accion": "Cotización enviada",
+        "detalle": "Diseño de Interiores Premium"
+      },
+      {
+        "fecha": "2025-03-05",
+        "accion": "Orden confirmada",
+        "orden_id": 10
+      }
+    ]
+  },
+  {
+    "_id": "CLI011",
+    "nombre": "Fernando Valdez",
+    "historial": [
+      {
+        "fecha": "2025-04-28",
+        "accion": "Cotización enviada",
+        "detalle": "Instalación de Cuadros y Arte"
+      },
+      {
+        "fecha": "2025-04-30",
+        "accion": "Orden confirmada",
+        "orden_id": 11
+      }
+    ]
+  },
+  {
+    "_id": "CLI012",
+    "nombre": "Espacios Vivos",
+    "historial": [
+      {
+        "fecha": "2025-02-23",
+        "accion": "Cotización enviada",
+        "detalle": "Iluminación Decorativa"
+      },
+      {
+        "fecha": "2025-02-25",
+        "accion": "Orden pendiente",
+        "orden_id": 12
+      },
+      {
+        "fecha": "2025-03-05",
+        "accion": "Servicio completado",
+        "orden_id": 12
+      }
+    ]
+  },
+  {
+    "_id": "CLI013",
+    "nombre": "Manuel Rojas",
+    "historial": [
+      {
+        "fecha": "2025-04-25",
+        "accion": "Cotización enviada",
+        "detalle": "Diseño de Interiores Premium"
+      },
+      {
+        "fecha": "2025-04-27",
+        "accion": "Orden pendiente",
+        "orden_id": 13
+      },
+      {
+        "fecha": "2025-05-05",
+        "accion": "Servicio completado",
+        "orden_id": 13
+      }
+    ]
+  },
+  {
+    "_id": "CLI014",
+    "nombre": "DecorHaus SAC",
+    "historial": [
+      {
+        "fecha": "2025-01-05",
+        "accion": "Cotización enviada",
+        "detalle": "Instalación de Cuadros y Arte"
+      },
+      {
+        "fecha": "2025-01-07",
+        "accion": "Orden pendiente",
+        "orden_id": 14
+      },
+      {
+        "fecha": "2025-01-15",
+        "accion": "Servicio completado",
+        "orden_id": 14
+      }
+    ]
+  }
+]
