@@ -1,0 +1,58 @@
+[
+  {
+    "id_empleado": 1,
+    "nombre": "Carlos Ramírez",
+    "cargo": "Diseñador de Interiores",
+    "tipo_contrato": "Tiempo Completo",
+    "especialidad": "Mobiliario"
+  },
+  {
+    "id_empleado": 2,
+    "nombre": "Lucía Fernández",
+    "cargo": "Supervisor de Proyecto",
+    "tipo_contrato": "Tiempo Completo",
+    "especialidad": "Diseño Espacial"
+  },
+  {
+    "id_empleado": 3,
+    "nombre": "Pedro Torres",
+    "cargo": "Técnico Instalador",
+    "tipo_contrato": "Contrato Temporal",
+    "especialidad": "Iluminación"
+  },
+  {
+    "id_empleado": 4,
+    "nombre": "Ana Vega",
+    "cargo": "Asesor de Cliente",
+    "tipo_contrato": "Medio Tiempo",
+    "especialidad": "Restauración"
+  },
+  {
+    "id_empleado": 5,
+    "nombre": "Luis Campos",
+    "cargo": "Gerente de Servicios",
+    "tipo_contrato": "Tiempo Completo",
+    "especialidad": "Arte Mural"
+  },
+  {
+    "id_empleado": 6,
+    "nombre": "Julia Herrera",
+    "cargo": "Decorador Ambiental",
+    "tipo_contrato": "Medio Tiempo",
+    "especialidad": "Paisajismo"
+  },
+  {
+    "id_empleado": 7,
+    "nombre": "Marco Salinas",
+    "cargo": "Arquitecto de Interiores",
+    "tipo_contrato": "Tiempo Completo",
+    "especialidad": "Diseño Espacial"
+  },
+  {
+    "id_empleado": 8,
+    "nombre": "Elena Ríos",
+    "cargo": "Coordinador de Proyecto",
+    "tipo_contrato": "Contrato Temporal",
+    "especialidad": "Acústica Ambiental"
+  }
+]
