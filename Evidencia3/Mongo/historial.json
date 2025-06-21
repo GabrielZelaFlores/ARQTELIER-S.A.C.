@@ -1,0 +1,367 @@
+[
+  {
+    "_id": "CLI001",
+    "nombre": "María López",
+    "historial": [
+      {
+        "fecha": "2025-04-01",
+        "accion": "Orden confirmada",
+        "orden_id": 1,
+        "detalle": "Diseño de Interiores Premium"
+      }
+    ]
+  },
+  {
+    "_id": "CLI002",
+    "nombre": "Decoraciones Elite SAC",
+    "historial": [
+      {
+        "fecha": "2025-04-02",
+        "accion": "Orden confirmada",
+        "orden_id": 2,
+        "detalle": "Iluminación Decorativa"
+      }
+    ]
+  },
+  {
+    "_id": "CLI003",
+    "nombre": "Juan Pérez",
+    "historial": [
+      {
+        "fecha": "2025-04-03",
+        "accion": "Orden confirmada",
+        "orden_id": 3,
+        "detalle": "Instalación de Cuadros y Arte"
+      }
+    ]
+  },
+  {
+    "_id": "CLI004",
+    "nombre": "Estudio ArqNova",
+    "historial": [
+      {
+        "fecha": "2025-04-04",
+        "accion": "Orden confirmada",
+        "orden_id": 4,
+        "detalle": "Diseño de Interiores Premium"
+      }
+    ]
+  },
+  {
+    "_id": "CLI005",
+    "nombre": "Sofía Gutiérrez",
+    "historial": [
+      {
+        "fecha": "2025-04-05",
+        "accion": "Orden confirmada",
+        "orden_id": 5,
+        "detalle": "Instalación de Cuadros y Arte"
+      }
+    ]
+  },
+  {
+    "_id": "CLI006",
+    "nombre": "Interiores Modernos SAC",
+    "historial": [
+      {
+        "fecha": "2025-04-06",
+        "accion": "Orden confirmada",
+        "orden_id": 6,
+        "detalle": "Iluminación Decorativa"
+      }
+    ]
+  },
+  {
+    "_id": "CLI007",
+    "nombre": "Carlos Yañez",
+    "historial": [
+      {
+        "fecha": "2025-04-07",
+        "accion": "Cotización enviada",
+        "detalle": "Diseño de Interiores Premium"
+      },
+      {
+        "fecha": "2025-04-08",
+        "accion": "Orden confirmada",
+        "orden_id": 7,
+        "detalle": "Diseño de Interiores Premium"
+      }
+    ]
+  },
+  {
+    "_id": "CLI008",
+    "nombre": "ArqLine Studio",
+    "historial": [
+      {
+        "fecha": "2025-04-08",
+        "accion": "Orden confirmada",
+        "orden_id": 8,
+        "detalle": "Instalación de Cuadros y Arte"
+      }
+    ]
+  },
+  {
+    "_id": "CLI009",
+    "nombre": "Laura Torres",
+    "historial": [
+      {
+        "fecha": "2025-04-09",
+        "accion": "Orden confirmada",
+        "orden_id": 9,
+        "detalle": "Iluminación Decorativa"
+      }
+    ]
+  },
+  {
+    "_id": "CLI010",
+    "nombre": "Elegancia Urbana SAC",
+    "historial": [
+      {
+        "fecha": "2025-04-10",
+        "accion": "Orden confirmada",
+        "orden_id": 10,
+        "detalle": "Diseño de Interiores Premium"
+      }
+    ]
+  },
+  {
+    "_id": "CLI011",
+    "nombre": "Fernando Valdez",
+    "historial": [
+      {
+        "fecha": "2025-04-11",
+        "accion": "Orden confirmada",
+        "orden_id": 11,
+        "detalle": "Instalación de Cuadros y Arte"
+      }
+    ]
+  },
+  {
+    "_id": "CLI012",
+    "nombre": "Espacios Vivos",
+    "historial": [
+      {
+        "fecha": "2025-04-12",
+        "accion": "Orden confirmada",
+        "orden_id": 12,
+        "detalle": "Iluminación Decorativa"
+      }
+    ]
+  },
+  {
+    "_id": "CLI013",
+    "nombre": "Manuel Rojas",
+    "historial": [
+      {
+        "fecha": "2025-04-13",
+        "accion": "Orden confirmada",
+        "orden_id": 13,
+        "detalle": "Diseño de Interiores Premium"
+      }
+    ]
+  },
+  {
+    "_id": "CLI014",
+    "nombre": "DecorHaus SAC",
+    "historial": [
+      {
+        "fecha": "2025-04-14",
+        "accion": "Orden confirmada",
+        "orden_id": 14,
+        "detalle": "Instalación de Cuadros y Arte"
+      }
+    ]
+  },
+  {
+    "_id": "CLI015",
+    "nombre": "Urbania",
+    "historial": [
+      {
+        "fecha": "2025-04-15",
+        "accion": "Orden confirmada",
+        "orden_id": 15,
+        "detalle": "Paisajismo Urbano"
+      },
+      {
+        "fecha": "2025-04-16",
+        "accion": "Orden confirmada",
+        "orden_id": 25,
+        "detalle": "Diseño de Interiores Premium"
+      },
+      {
+        "fecha": "2025-04-17",
+        "accion": "Orden confirmada",
+        "orden_id": 35,
+        "detalle": "Acondicionamiento Acústico"
+      }
+    ]
+  },
+  {
+    "_id": "CLI016",
+    "nombre": "GreenSpaces",
+    "historial": [
+      {
+        "fecha": "2025-04-17",
+        "accion": "Orden confirmada",
+        "orden_id": 16,
+        "detalle": "Acondicionamiento Acústico"
+      },
+      {
+        "fecha": "2025-04-18",
+        "accion": "Orden confirmada",
+        "orden_id": 26,
+        "detalle": "Instalación de Cuadros y Arte"
+      },
+      {
+        "fecha": "2025-04-19",
+        "accion": "Orden confirmada",
+        "orden_id": 36,
+        "detalle": "Diseño de Interiores Premium"
+      }
+    ]
+  },
+  {
+    "_id": "CLI017",
+    "nombre": "Renzo Cabrera",
+    "historial": [
+      {
+        "fecha": "2025-04-19",
+        "accion": "Orden confirmada",
+        "orden_id": 17,
+        "detalle": "Consultoría en Espacios Decorativos"
+      },
+      {
+        "fecha": "2025-04-20",
+        "accion": "Orden confirmada",
+        "orden_id": 27,
+        "detalle": "Iluminación Decorativa"
+      }
+    ]
+  },
+  {
+    "_id": "CLI018",
+    "nombre": "Constructora Andina",
+    "historial": [
+      {
+        "fecha": "2025-04-20",
+        "accion": "Orden confirmada",
+        "orden_id": 18,
+        "detalle": "Montaje de Muebles Premium"
+      },
+      {
+        "fecha": "2025-04-21",
+        "accion": "Orden confirmada",
+        "orden_id": 28,
+        "detalle": "Consultoría en Espacios Decorativos"
+      }
+    ]
+  },
+  {
+    "_id": "CLI019",
+    "nombre": "ArqDesign Studio",
+    "historial": [
+      {
+        "fecha": "2025-04-21",
+        "accion": "Orden confirmada",
+        "orden_id": 19,
+        "detalle": "Diseño Exterior Decorativo"
+      },
+      {
+        "fecha": "2025-04-22",
+        "accion": "Orden confirmada",
+        "orden_id": 29,
+        "detalle": "Montaje de Muebles Premium"
+      }
+    ]
+  },
+  {
+    "_id": "CLI020",
+    "nombre": "Lucía Gómez",
+    "historial": [
+      {
+        "fecha": "2025-04-22",
+        "accion": "Orden confirmada",
+        "orden_id": 20,
+        "detalle": "Integración de Tecnología en el Hogar"
+      },
+      {
+        "fecha": "2025-04-23",
+        "accion": "Orden confirmada",
+        "orden_id": 30,
+        "detalle": "Diseño Exterior Decorativo"
+      }
+    ]
+  },
+  {
+    "_id": "CLI021",
+    "nombre": "Estilo & Forma SAC",
+    "historial": [
+      {
+        "fecha": "2025-04-23",
+        "accion": "Orden confirmada",
+        "orden_id": 21,
+        "detalle": "Servicio de Arte Personalizado"
+      },
+      {
+        "fecha": "2025-04-24",
+        "accion": "Orden confirmada",
+        "orden_id": 31,
+        "detalle": "Integración de Tecnología en el Hogar"
+      }
+    ]
+  },
+  {
+    "_id": "CLI022",
+    "nombre": "Alonso Paredes",
+    "historial": [
+      {
+        "fecha": "2025-04-24",
+        "accion": "Orden confirmada",
+        "orden_id": 22,
+        "detalle": "Restauración de Piezas Antiguas"
+      },
+      {
+        "fecha": "2025-04-25",
+        "accion": "Orden confirmada",
+        "orden_id": 32,
+        "detalle": "Servicio de Arte Personalizado"
+      }
+    ]
+  },
+  {
+    "_id": "CLI023",
+    "nombre": "Munarq",
+    "historial": [
+      {
+        "fecha": "2025-04-25",
+        "accion": "Orden confirmada",
+        "orden_id": 23,
+        "detalle": "Paisajismo Urbano"
+      },
+      {
+        "fecha": "2025-04-26",
+        "accion": "Orden confirmada",
+        "orden_id": 33,
+        "detalle": "Restauración de Piezas Antiguas"
+      }
+    ]
+  },
+  {
+    "_id": "CLI024",
+    "nombre": "Fundación Arte y Vida",
+    "historial": [
+      {
+        "fecha": "2025-04-26",
+        "accion": "Orden confirmada",
+        "orden_id": 24,
+        "detalle": "Acondicionamiento Acústico"
+      },
+      {
+        "fecha": "2025-04-27",
+        "accion": "Orden confirmada",
+        "orden_id": 34,
+        "detalle": "Paisajismo Urbano"
+      }
+    ]
+  }
+]
