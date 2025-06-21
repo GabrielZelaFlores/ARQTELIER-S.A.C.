@@ -1,0 +1,194 @@
+[
+  {
+    "id_cliente": 1,
+    "nombre": "María López",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "73211456",
+    "correo": "mlopez@gmail.com",
+    "telefono": "987654321"
+  },
+  {
+    "id_cliente": 2,
+    "nombre": "Decoraciones Elite SAC",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "20548796321",
+    "correo": "contacto@decorelite.pe",
+    "telefono": "012345678"
+  },
+  {
+    "id_cliente": 3,
+    "nombre": "Juan Pérez",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "45678912",
+    "correo": "juanp@outlook.com",
+    "telefono": "956321478"
+  },
+  {
+    "id_cliente": 4,
+    "nombre": "Estudio ArqNova",
+    "tipo_cliente": "Arquitecto Independiente",
+    "ruc_dni": "10456987123",
+    "correo": "info@arqnova.com",
+    "telefono": "014789654"
+  },
+  {
+    "id_cliente": 5,
+    "nombre": "Sofía Gutiérrez",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "78654321",
+    "correo": "sofia.gutierrez@mail.com",
+    "telefono": "986321456"
+  },
+  {
+    "id_cliente": 6,
+    "nombre": "Interiores Modernos SAC",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "20678912345",
+    "correo": "ventas@interioresmodernos.pe",
+    "telefono": "017896543"
+  },
+  {
+    "id_cliente": 7,
+    "nombre": "Carlos Yañez",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "75214689",
+    "correo": "cyanez@gmail.com",
+    "telefono": "974856321"
+  },
+  {
+    "id_cliente": 8,
+    "nombre": "ArqLine Studio",
+    "tipo_cliente": "Arquitecto Independiente",
+    "ruc_dni": "10456789234",
+    "correo": "proyectos@arqline.pe",
+    "telefono": "014567821"
+  },
+  {
+    "id_cliente": 9,
+    "nombre": "Laura Torres",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "78541236",
+    "correo": "ltorres@hotmail.com",
+    "telefono": "915478632"
+  },
+  {
+    "id_cliente": 10,
+    "nombre": "Elegancia Urbana SAC",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "20784512365",
+    "correo": "contacto@eleganciaurbana.pe",
+    "telefono": "013254687"
+  },
+  {
+    "id_cliente": 11,
+    "nombre": "Fernando Valdez",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "76985214",
+    "correo": "fvaldez@gmail.com",
+    "telefono": "982345671"
+  },
+  {
+    "id_cliente": 12,
+    "nombre": "Espacios Vivos",
+    "tipo_cliente": "Arquitecto Independiente",
+    "ruc_dni": "10235478965",
+    "correo": "espacios@vivos.com",
+    "telefono": "014523687"
+  },
+  {
+    "id_cliente": 13,
+    "nombre": "Manuel Rojas",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "74185296",
+    "correo": "manuelr@gmail.com",
+    "telefono": "923456178"
+  },
+  {
+    "id_cliente": 14,
+    "nombre": "DecorHaus SAC",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "20478596321",
+    "correo": "info@decorhaus.pe",
+    "telefono": "016789451"
+  },
+  {
+    "id_cliente": 15,
+    "nombre": "Urbania",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "20123456789",
+    "correo": "contacto@urbaniape",
+    "telefono": "012345678"
+  },
+  {
+    "id_cliente": 16,
+    "nombre": "GreenSpaces",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "10234567891",
+    "correo": "proyectos@greenspaces.org",
+    "telefono": "015874523"
+  },
+  {
+    "id_cliente": 17,
+    "nombre": "Renzo Cabrera",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "74125896",
+    "correo": "renzocabrera@mail.com",
+    "telefono": "989654123"
+  },
+  {
+    "id_cliente": 18,
+    "nombre": "Constructora Andina",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "20985674123",
+    "correo": "contacto@andina.pe",
+    "telefono": "013698547"
+  },
+  {
+    "id_cliente": 19,
+    "nombre": "ArqDesign Studio",
+    "tipo_cliente": "Arquitecto Independiente",
+    "ruc_dni": "10321478596",
+    "correo": "hola@arqdesign.pe",
+    "telefono": "014236547"
+  },
+  {
+    "id_cliente": 20,
+    "nombre": "Lucía Gómez",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "78965412",
+    "correo": "lucia.gomez@gmail.com",
+    "telefono": "987456123"
+  },
+  {
+    "id_cliente": 21,
+    "nombre": "Estilo & Forma SAC",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "20478965412",
+    "correo": "ventas@estiloforma.pe",
+    "telefono": "017854632"
+  },
+  {
+    "id_cliente": 22,
+    "nombre": "Alonso Paredes",
+    "tipo_cliente": "Particular",
+    "ruc_dni": "74589612",
+    "correo": "alonso.par@gmail.com",
+    "telefono": "956321748"
+  },
+  {
+    "id_cliente": 23,
+    "nombre": "Munarq",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "20147896325",
+    "correo": "obras@surco.gob.pe",
+    "telefono": "013659874"
+  },
+  {
+    "id_cliente": 24,
+    "nombre": "Fundación Arte y Vida",
+    "tipo_cliente": "Empresa",
+    "ruc_dni": "10985632145",
+    "correo": "arte@fundacionayv.org",
+    "telefono": "012369874"
+  }
+]
