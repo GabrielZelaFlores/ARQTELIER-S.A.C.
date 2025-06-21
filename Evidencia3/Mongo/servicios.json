@@ -1,0 +1,234 @@
+[
+  {
+    "id_servicio": 1,
+    "nombre": "Diseño de Interiores Premium",
+    "descripcion": "Servicio completo de ambientación con asesoría personalizada",
+    "precio_base": 1500.0,
+    "procesos": [
+      {
+        "nombre": "Visita Técnica",
+        "descripcion": "Evaluación del espacio del cliente",
+        "area_responsable": "Diseño",
+        "recursos": [
+          { "nombre": "Medidor Láser", "tipo": "Herramienta", "uso": "Medición de espacios" }
+        ]
+      },
+      {
+        "nombre": "Propuesta de Diseño",
+        "descripcion": "Entrega de boceto personalizado",
+        "area_responsable": "Diseño",
+        "recursos": [
+          { "nombre": "AutoCAD", "tipo": "Software", "uso": "Diseño de plano decorativo" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 2,
+    "nombre": "Instalación de Cuadros y Arte",
+    "descripcion": "Colocación precisa y segura de obras decorativas",
+    "precio_base": 400.0,
+    "procesos": [
+      {
+        "nombre": "Montaje",
+        "descripcion": "Instalación en pared con nivelado",
+        "area_responsable": "Instalación",
+        "recursos": [
+          { "nombre": "Taladro Industrial", "tipo": "Herramienta", "uso": "Perforación para anclaje" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 3,
+    "nombre": "Iluminación Decorativa",
+    "descripcion": "Planeamiento e instalación de soluciones de iluminación elegante",
+    "precio_base": 900.0,
+    "procesos": [
+      {
+        "nombre": "Cableado y Fijación",
+        "descripcion": "Integración de luces al sistema eléctrico",
+        "area_responsable": "Técnico",
+        "recursos": [
+          { "nombre": "Kit de iluminación LED", "tipo": "Material", "uso": "Material para instalación" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 4,
+    "nombre": "Consultoría en Espacios Decorativos",
+    "descripcion": "Asesoría remota o presencial para ambientación",
+    "precio_base": 600.0,
+    "procesos": [
+      {
+        "nombre": "Sesión de Consultoría",
+        "descripcion": "Reunión inicial para conocer necesidades",
+        "area_responsable": "Atención al Cliente",
+        "recursos": [
+          { "nombre": "Tablet con catálogo digital", "tipo": "Software", "uso": "Visualización de opciones en consultoría" }
+        ]
+      },
+      {
+        "nombre": "Análisis de Espacio",
+        "descripcion": "Evaluación del entorno físico o virtual",
+        "area_responsable": "Diseño",
+        "recursos": [
+          { "nombre": "Plano del cliente", "tipo": "Software", "uso": "Referencia del espacio en análisis" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 5,
+    "nombre": "Montaje de Muebles Premium",
+    "descripcion": "Armado e instalación profesional de mobiliario",
+    "precio_base": 800.0,
+    "procesos": [
+      {
+        "nombre": "Revisión de Piezas",
+        "descripcion": "Verificación de componentes de mobiliario",
+        "area_responsable": "Logística",
+        "recursos": [
+          { "nombre": "Checklist de componentes", "tipo": "Software", "uso": "Validación del mobiliario a ensamblar" }
+        ]
+      },
+      {
+        "nombre": "Montaje",
+        "descripcion": "Armado y ubicación final del mueble",
+        "area_responsable": "Instalación",
+        "recursos": [
+          { "nombre": "Juego de herramientas manuales", "tipo": "Herramienta", "uso": "Montaje de muebles premium" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 6,
+    "nombre": "Diseño Exterior Decorativo",
+    "descripcion": "Propuestas estéticas para fachadas y patios",
+    "precio_base": 1200.0,
+    "procesos": [
+      {
+        "nombre": "Evaluación Exterior",
+        "descripcion": "Inspección de fachada y entorno",
+        "area_responsable": "Diseño",
+        "recursos": [
+          { "nombre": "Cinta métrica", "tipo": "Herramienta", "uso": "Toma de medidas exteriores" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 7,
+    "nombre": "Integración de Tecnología en el Hogar",
+    "descripcion": "Automatización de iluminación y sonido",
+    "precio_base": 1800.0,
+    "procesos": [
+      {
+        "nombre": "Integración de Sistemas",
+        "descripcion": "Conexión de dispositivos inteligentes",
+        "area_responsable": "Tecnología",
+        "recursos": [
+          { "nombre": "Kit doméstico", "tipo": "Material", "uso": "Automatización de funciones del hogar" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 8,
+    "nombre": "Servicio de Arte Personalizado",
+    "descripcion": "Creación de cuadros únicos por artistas locales",
+    "precio_base": 2000.0,
+    "procesos": [
+      {
+        "nombre": "Diseño Artístico Personalizado",
+        "descripcion": "Boceto inicial con preferencias del cliente",
+        "area_responsable": "Arte",
+        "recursos": [
+          { "nombre": "Lienzo y acrílicos", "tipo": "Material", "uso": "Creación de obra personalizada" }
+        ]
+      },
+      {
+        "nombre": "Entrega y Montaje de Obra",
+        "descripcion": "Colocación profesional del arte",
+        "area_responsable": "Instalación",
+        "recursos": [
+          { "nombre": "Nivelador y tornillos", "tipo": "Material", "uso": "Instalación de obra de arte" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 9,
+    "nombre": "Restauración de Piezas Antiguas",
+    "descripcion": "Reparación y embellecimiento de muebles clásicos",
+    "precio_base": 1500.0,
+    "procesos": [
+      {
+        "nombre": "Evaluación de Daños",
+        "descripcion": "Diagnóstico del estado de la pieza antigua",
+        "area_responsable": "Restauración",
+        "recursos": [
+          { "nombre": "Lupa técnica", "tipo": "Herramienta", "uso": "Revisión detallada de deterioros" }
+        ]
+      },
+      {
+        "nombre": "Proceso de Restauración",
+        "descripcion": "Reparación con técnicas especializadas",
+        "area_responsable": "Restauración",
+        "recursos": [
+          { "nombre": "Barniz restaurador", "tipo": "Material", "uso": "Aplicación en muebles antiguos" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 10,
+    "nombre": "Paisajismo Urbano",
+    "descripcion": "Diseño y acondicionamiento de jardines y áreas verdes",
+    "precio_base": 1300.0,
+    "procesos": [
+      {
+        "nombre": "Diseño del Jardín",
+        "descripcion": "Propuesta inicial del área verde",
+        "area_responsable": "Diseño",
+        "recursos": [
+          { "nombre": "Plano paisajístico", "tipo": "Software", "uso": "Diseño de jardinería" }
+        ]
+      },
+      {
+        "nombre": "Implementación",
+        "descripcion": "Plantación y riego automatizado",
+        "area_responsable": "Instalación",
+        "recursos": [
+          { "nombre": "Sistema de riego automático", "tipo": "Material", "uso": "Implementación de jardines" }
+        ]
+      }
+    ]
+  },
+  {
+    "id_servicio": 11,
+    "nombre": "Acondicionamiento Acústico",
+    "descripcion": "Instalación de materiales para aislamiento sonoro",
+    "precio_base": 1100.0,
+    "procesos": [
+      {
+        "nombre": "Diagnóstico Acústico",
+        "descripcion": "Medición de niveles de ruido",
+        "area_responsable": "Tecnología",
+        "recursos": [
+          { "nombre": "Medidor de decibelios", "tipo": "Herramienta", "uso": "Evaluación acústica" }
+        ]
+      },
+      {
+        "nombre": "Instalación de Materiales",
+        "descripcion": "Montaje de paneles y sellado acústico",
+        "area_responsable": "Instalación",
+        "recursos": [
+          { "nombre": "Paneles aislantes", "tipo": "Material", "uso": "Instalación de aislamiento" }
+        ]
+      }
+    ]
+  }
+]
