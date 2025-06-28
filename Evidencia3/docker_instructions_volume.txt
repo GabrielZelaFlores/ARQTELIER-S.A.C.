@@ -1,0 +1,17 @@
+-- Docker image
+mcr.microsoft.com/mssql/server:2019-latest
+-- Volume path
+/var/opt/mssql
+-- Env Var
+ACCEPT_EULA	Y
+SA_PASSWORD	Admin$123 
+
+---- EXPORT VOLUME (PowerShell)
+docker run --rm -v sqlserverarqtelier:/data -v "${PWD}:/backup" busybox tar czf /backup/sqlserver_backup.tar.gz -C /data .
+
+---- IMPORT VOLUME (PowerShell)
+docker run --rm `
+  -v sqlserverarqtelier:/data `
+  -v "${PWD}:/backup" `
+  busybox `
+  tar xzf /backup/sqlserver_backup.tar.gz -C /data
